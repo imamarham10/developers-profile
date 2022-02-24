@@ -1,0 +1,138 @@
+.form-content {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    color: rgba(0,0,0,1);
+    background-color: transparent;
+    padding: 14rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.form-wrapper {
+    background-color: rgba(255,255,255,1);
+    height: auto;
+    margin: 0;
+    width: 65rem;
+    margin-top: 48.125rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    --shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    --shadow1: 0 0 transparent;
+    --shadow2: 0 0 transparent;
+    box-shadow: var(--shadow1, 0 0 #0000), var(--shadow2,0 0 #0000), var(--shadow);
+    box-sizing: border-box;
+}
+
+.form-heading {
+    padding: 3.12rem;
+    font-size: 2rem;
+    line-height: 2.25rem;
+    font-weight: 600;
+}
+
+.line {
+    border: 1px solid #d0cde1;
+    opacity: 0.5;
+    margin-left: 1.875rem;
+    margin-right: 1.875rem;
+    margin-bottom: 3.12rem;
+}
+
+.input-content {
+    margin: 1.875rem;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3.12rem;
+    padding-right: 3.12rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.button-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 1.5rem;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+}
+
+.cancel-button {
+    width: 10.93rem;
+    margin-left: 3.12rem;
+    margin-right: 3.12rem;
+    border: none;
+    background-color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.cancel-button:focus {
+    outline: none;
+}
+
+.submit-button {
+    width: 11rem;
+    height: 3.5rem;
+    color: white;
+    background-color: #7d639f;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+    border: none;
+}
+
+.submit-button:focus {
+    outline: none;
+}
+
+@media (max-width: 1024px) {
+    .form-wrapper {
+        height: auto;
+        margin: 3.5rem;
+    }
+
+    .form-heading {
+        padding: 1.25rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .line {
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+        margin-bottom: 1.875rem;
+    }
+
+    .input-content {
+        margin: 1.25rem;
+    }
+
+    .input-wrapper {
+        font-size: 0.875rem;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+
+    .submit-button {
+        width: 8rem;
+        font-size: 0.875rem;
+    }
+
+    .cancel-button {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+    }
+}

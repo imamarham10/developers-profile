@@ -1,0 +1,276 @@
+.div-font {
+    font-family: 'Nunito', sans-serif;  
+}
+
+.profile-content {
+    height: 28rem;
+    background-color: #e5e5e5;
+}
+
+.profile-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.profile-image {
+    margin-right: 1.25rem;
+    color: #7d639f;
+    fill: currentColor;
+    height: 20.833rem;
+    width: 20.833rem;
+    border-radius: 9999px;
+}
+
+.default-profile-image {
+    color: #7d639f;
+    fill: currentColor;
+    height: 20.833rem;
+    width: 20.833rem;
+}
+
+.profile-div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 3rem;
+}
+
+.profile-heading {
+    font-size: 3rem;
+    line-height: 1;
+    color: #3f3d56;
+}
+
+.profile-info {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.profile-info-1 {
+    margin-top: 1.875rem;
+}
+
+.profile-icon-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1.875rem;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.profile-email-icon {
+    color: #3f3d56;
+    fill: currentColor;
+    width: 1.875rem;
+    height: 1.875rem;
+    margin-right: 0.875rem;
+}
+
+.profile-description {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #3f3d56;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.profile-description1 {
+    margin-top: 1.875rem;
+}
+
+.profile-loaction,
+.profile-company,
+.profile-blog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.profile-location-icon,
+.profile-company-icon,
+.profile-blog-icon {
+    width: 1rem;
+    height: 1rem;
+}
+
+.location-icon1,
+.company-icon1,
+.blog-icon1 {
+    padding-left: 0.75rem;
+}
+
+.profile-margin {
+    margin-top: 1.25rem;
+}
+
+.profile-repo-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3f3d56;
+    font-size: 3rem;
+    line-height: 1;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    padding: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.profile-repo-border,
+.profile-repo-border2 {
+    border: 1px solid #d0cde1;
+    opacity: 0.4;
+}
+
+.profile-repo-border2 {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+
+.profile-repo-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 1.875rem 5.25rem;
+}
+
+.profile-repo-wrapper a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.profile-repo-redirect {
+    color: #458efc;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+
+.profile-link-arrow {
+    color: #1068fa;
+    fill: currentColor;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: 1.25rem;
+}
+
+.profile-repo-time {
+    color: #b2b1bb;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.profile-repo-description {
+    color: #3f3d56;
+    font-size: 2rem;
+    line-height: 2.25rem;
+}
+
+@media (max-width: 1024px) {
+    .profile-content {
+        height: 100%;
+    }
+
+    .profile-content-wrapper {
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        padding-left: 1.75rem;
+        padding-right: 1.75rem;
+    }
+
+    .profile-image {
+        width: 6.25rem;
+        height: 6.25rem;
+    }
+
+    .default-profile-image {
+        width: 6.25rem;
+        height: 6.25rem;
+    }
+
+    .profile-div {
+        margin-top: 0.625rem;
+        text-align: center;
+    }
+
+    .profile-heading {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+
+    .profile-info {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .profile-info-2 {
+        margin-top: 0.5rem;
+    }
+
+    .profile-icon-content {
+        justify-content: center;
+        margin-top: 1.25rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .profile-email-icon {
+        width: 1.25rem;
+        height: 1.25rem;
+        margin-right: 1.875rem;
+    }
+
+    .profile-description {
+        font-size: 0.75rem;
+        line-height: 1rem;
+        justify-content: center;
+    }
+
+    .profile-description2 {
+        margin-top: 1.25rem;
+    }
+
+    .profile-repo-content {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .profile-repo-wrapper {
+        padding: 0.625rem 1rem;
+    }
+
+    .profile-repo-redirect {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+
+    .profile-link-arrow {
+        width: 0.75rem;
+        height: 0.75rem;
+        margin-left: 0.25rem;
+    }
+
+    .profile-repo-time {
+        font-size: 0.75rem;
+        line-height: 1rem;
+        padding-left: 1.25rem;
+    }
+
+    .profile-repo-description {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+    }
+}
